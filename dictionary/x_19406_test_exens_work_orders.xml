@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="work orders" max_length="40" name="x_19406_test_exens_work_orders" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="scopeTest" max_length="40" name="scopetest" type="string"/>
+    </element>
+</database>

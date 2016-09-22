@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_scope_script_access">
+    <sys_scope_script_access action="INSERT_OR_UPDATE">
+        <example_stack_trace>Default-thread-7
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.getCurrentStackTrace(ScopeAccessProvider.java:234)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.record(ScopeAccessProvider.java:202)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.access$100(ScopeAccessProvider.java:81)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider.recordAccess(ScopeAccessProvider.java:64)
+	com.glide.sys.fencing.dependency.ScopeAccessRecorder.record(ScopeAccessRecorder.java:13)
+	com.glide.script.system.ASystemInclude.recordCrossScopeDependency(ASystemInclude.java:153)
+	com.glide.script.system.ASystemInclude.include(ASystemInclude.java:133)
+	com.glide.script.AGlideRhinoScopeHandler.isScriptInclude(AGlideRhinoScopeHandler.java:45)
+	com.glide.script.GlideRhinoScopeHandler.found(GlideRhinoScopeHandler.java:27)
+	com.glide.script.ARhinoScope.get(ARhinoScope.java:77)
+	com.glide.script.RhinoScope.get(RhinoScope.java:52)
+	com.glide.script.PackageRhinoGlobalScope.get(PackageRhinoGlobalScope.java:34)
+	org.mozilla.javascript.ScriptableObject.getProperty(ScriptableObject.java:2323)
+	org.mozilla.javascript.ScriptRuntime.getObjectProp(ScriptRuntime.java:1536)
+	org.mozilla.javascript.ScriptRuntime.getObjectProp(ScriptRuntime.java:1529)
+	org.mozilla.javascript.gen.ftp___gsft_database_form_sys_ui_page_7656cbb30f112200dc37c09ce1050ea9_html_3_1124._c_script_0(ftp://gsft_database_form/sys_ui_page.7656cbb30f112200dc37c09ce1050ea9.html.3:7)
+	org.mozilla.javascript.gen.ftp___gsft_database_form_sys_ui_page_7656cbb30f112200dc37c09ce1050ea9_html_3_1124.call(ftp://gsft_database_form/sys_ui_page.7656cbb30f112200dc37c09ce1050ea9.html.3)
+	org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:560)
+	org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3439)
+	org.mozilla.javascript.gen.ftp___gsft_database_form_sys_ui_page_7656cbb30f112200dc37c09ce1050ea9_html_3_1124.call(ftp://gsft_database_form/sys_ui_page.7656cbb30f112200dc37c09ce1050ea9.html.3)
+	org.mozilla.javascript.gen.ftp___gsft_database_form_sys_ui_page_7656cbb30f112200dc37c09ce1050ea9_html_3_1124.exec(ftp://gsft_database_form/sys_ui_page.7656cbb30f112200dc37c09ce1050ea9.html.3)
+	com.glide.script.ScriptEvaluator.execute(ScriptEvaluator.java:236)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:107)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:73)
+	com.glide.script.fencing.GlideScopedEvaluator.evaluateScript(GlideScopedEvaluator.java:322)
+	com.glide.script.fencing.GlideScopedEvaluator.evaluateScript(GlideScopedEvaluator.java:283)
+	com.glide.script.fencing.GlideScopedEvaluator.evaluateScript(GlideScopedEvaluator.java:254)
+	com.glide.script.fencing.GlideScopedEvaluator.evaluateScript(GlideScopedEvaluator.java:242)
+	com.glide.ui.jelly.GlideJellyContext.evaluate(GlideJellyContext.java:532)
+	com.glide.ui.jelly.tags.form.EvaluateTag.doTag(EvaluateTag.java:137)
+	org.apache.commons.jelly.impl.TagScript.run(TagScript.java:301)
+	org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:146)
+	org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:232)
+	org.apache.commons.jelly.tags.core.JellyTag.doTag(JellyTag.java:84)
+	org.apache.commons.jelly.impl.TagScript.run(TagScript.java:301)
+	com.glide.ui.jelly.GlideJellyContext.run(GlideJellyContext.java:658)
+	com.glide.ui.jelly.GlideJellyContext.runScript(GlideJellyContext.java:777)
+	com.glide.ui.jelly.GlideJellyContext.runJellyXml(GlideJellyContext.java:698)
+	com.glide.ui.jelly.Emitter.emitJelly(Emitter.java:77)
+	com.glide.ui_page.UIPageRenderTag.doTag(UIPageRenderTag.java:34)
+	org.apache.commons.jelly.impl.TagScript.run(TagScript.java:301)
+	org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:146)
+	org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:232)
+	org.apache.commons.jelly.tags.core.JellyTag.doTag(JellyTag.java:84)
+	org.apache.commons.jelly.impl.TagScript.run(TagScript.java:301)
+	com.glide.ui.jelly.GlideJellyContext.run(GlideJellyContext.java:658)
+	com.glide.ui.jelly.GlideJellyContext.runScript(GlideJellyContext.java:774)
+	com.glide.ui.jelly.GlideJellyContext.runJellyXml(GlideJellyContext.java:698)
+	com.glide.ui.GlideForm.runForm(GlideForm.java:422)
+	com.glide.ui.GlideForm.generateRealForm(GlideForm.java:349)
+	com.glide.ui.jelly.tags.form.InsertFormTag.doTag(InsertFormTag.java:89)
+	org.apache.commons.jelly.impl.TagScript.run(TagScript.java:301)
+	org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:146)
+	org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:232)
+	org.apache.commons.jelly.impl.StaticTag.doTag(StaticTag.java:111)
+	org.apache.commons.jelly.impl.StaticTagScript.run(StaticTagScript.java:94)
+	org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:146)
+	org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:232)
+	org.apache.commons.jelly.impl.StaticTag.doTag(StaticTag.java:111)
+	org.apache.commons.jelly.impl.StaticTagScript.run(StaticTagScript.java:94)
+	org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:146)
+	org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:232)
+	org.apache.commons.jelly.tags.core.JellyTag.doTag(JellyTag.java:84)
+	org.apache.commons.jelly.impl.TagScript.run(TagScript.java:301)
+	com.glide.ui.jelly.GlideJellyContext.run(GlideJellyContext.java:658)
+	com.glide.ui.jelly.GlideJellyContext.runScript(GlideJellyContext.java:774)
+	com.glide.ui.jelly.tags.BaseTag.invokerNoRef(BaseTag.java:140)
+	com.glide.ui.jelly.tags.BaseTag.invoker(BaseTag.java:120)
+	com.glide.ui.jelly.tags.BaseTag.invokeJellyTagged(BaseTag.java:215)
+	com.glide.ui.jelly.tags.form.HtmlPageTag.doTag(HtmlPageTag.java:39)
+	org.apache.commons.jelly.impl.TagScript.run(TagScript.java:301)
+	org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:146)
+	org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:232)
+	org.apache.commons.jelly.tags.core.JellyTag.doTag(JellyTag.java:84)
+	org.apache.commons.jelly.impl.TagScript.run(TagScript.java:301)
+	com.glide.ui.jelly.GlideJellyContext.run(GlideJellyContext.java:658)
+	com.glide.ui.jelly.GlideJellyContext.runScript(GlideJellyContext.java:774)
+	com.glide.ui.jelly.GlideJellyContext.runJellyXml(GlideJellyContext.java:698)
+	com.glide.ui.GlideForm.runForm(GlideForm.java:422)
+	com.glide.ui.GlideForm.generateRealForm(GlideForm.java:349)
+	com.glide.ui.GlideForm.getRealForm(GlideForm.java:325)
+	com.glide.ui.GlideForm.getRenderedPage(GlideForm.java:216)
+	com.glide.ui.NavigationTransaction.writeOutput(NavigationTransaction.java:157)
+	com.glide.ui.NavigationTransaction.process(NavigationTransaction.java:128)
+	com.glide.ui.GlideServletUITransaction.process(GlideServletUITransaction.java:89)
+	com.glide.processors.AProcessor.runProcessor(AProcessor.java:412)
+	com.glide.processors.AProcessor.processTransaction(AProcessor.java:187)
+	com.glide.processors.ProcessorRegistry.process(ProcessorRegistry.java:165)
+	com.glide.ui.GlideServletTransaction.process(GlideServletTransaction.java:49)
+	com.glide.sys.ServletTransaction.run(ServletTransaction.java:34)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	java.lang.Thread.run(Thread.java:745)
+</example_stack_trace>
+        <script_name>JSON</script_name>
+        <source_scope display_value="Test Exension">6435b02f0f302200dc37c09ce1050e7d</source_scope>
+        <sys_class_name>sys_scope_script_access</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-08-24 20:23:15</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>473697f70f112200dc37c09ce1050eec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>JSON</sys_name>
+        <sys_package display_value="Test Exension" source="x_19406_test_exens">6435b02f0f302200dc37c09ce1050e7d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Test Exension">6435b02f0f302200dc37c09ce1050e7d</sys_scope>
+        <sys_update_name>sys_scope_script_access_473697f70f112200dc37c09ce1050eec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-08-24 20:23:15</sys_updated_on>
+        <target_scope display_value="Global">global</target_scope>
+    </sys_scope_script_access>
+</record_update>

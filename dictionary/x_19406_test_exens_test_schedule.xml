@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmn_schedule" label="Test Schedule" max_length="40" name="x_19406_test_exens_test_schedule" type="collection"/>
+</database>

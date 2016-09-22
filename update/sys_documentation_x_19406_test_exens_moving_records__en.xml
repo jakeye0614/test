@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Moving Records" language="en" table="x_19406_test_exens_moving_records">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Moving Records</label>
+            <language>en</language>
+            <name>x_19406_test_exens_moving_records</name>
+            <plural>Moving Records</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jake.ye</sys_created_by>
+            <sys_created_on>2016-09-14 02:49:51</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>c58eeb1e0f712200dc37c09ce1050ef3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Moving Records</sys_name>
+            <sys_package display_value="Test Exension" source="x_19406_test_exens">6435b02f0f302200dc37c09ce1050e7d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Test Exension">6435b02f0f302200dc37c09ce1050e7d</sys_scope>
+            <sys_update_name>sys_documentation_x_19406_test_exens_moving_records__en</sys_update_name>
+            <sys_updated_by>jake.ye</sys_updated_by>
+            <sys_updated_on>2016-09-14 02:49:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
